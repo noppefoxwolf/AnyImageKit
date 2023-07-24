@@ -104,7 +104,6 @@ final class PickerToolBar: UIView {
         doneButton.snp.makeConstraints { maker in
             maker.right.equalToSuperview().offset(-15)
             maker.centerY.equalToSuperview()
-            maker.size.equalTo(CGSize(width: 60, height: 30))
         }
     }
 }
