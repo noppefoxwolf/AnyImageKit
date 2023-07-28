@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.8
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "AnyImageKit",
     defaultLocalization: "en",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v14), .macCatalyst(.v14)],
     products: [
         .library(name: "AnyImageKit", targets: ["AnyImageKit"]),
     ],
